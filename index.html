@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>マイクロソフトカスタマーサポート</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            max-width: 600px;
+            margin: auto;
+            text-align: center;
+        }
+
+        h1 {
+            color: #0078d7;
+        }
+
+        p {
+            color: #333;
+            text-align: justify;
+            text-align-last: center;
+        }
+
+        .buttons {
+            margin-top: 20px;
+        }
+
+        .btn {
+            background-color: #0078d7;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 15px;
+            cursor: pointer;
+            margin: 5px;
+            font-size: 16px;
+        }
+
+        .btn:hover {
+            background-color: #005a9e;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <img src="https://www.logo.wine/a/logo/Microsoft_Store/Microsoft_Store-Logo.wine.svg" alt="" height="80px" width="100%">
+        </div>
+        <h1>マイクロソフトカスタマーサポート</h1>
+        <p>アカウントで問題が発生した場合は、カスタマー サポート チームがお手伝いします。かどうか
+            お支払いの問題、アカウントの問題、または一般的なご質問であれば、いつでもお手伝いいたします。</p>
+        <p>
+            私たちは、スムーズな取引体験がいかに重要であるかを理解しています。トランザクションエラーが発生した場合は、ログインしてください
+                        アカウントに関する問題や懸念事項がございましたら、当社のチームがお手伝いいたします。</p>
+        <p>
+            マイクロソフト カスタマー サポートは営業時間内にご利用いただけます。できるだけ詳しくご連絡ください
+            解決プロセスをスピードアップすることが可能
+        </p>
+
+        <div class="buttons">
+            <button class="btn" onclick="callSupport()"> マイクロソフトサポートのフリーダイヤル</button>
+            <button class="btn" onclick="callSupport()"> マイクロソフト ヘルプセンター</button>
+            <p>さらにサポートが必要な場合は、マイクロソフト 公式 ウェブ
+                サイトのヘルプ センターにアクセスして追加のリソースを参照してください。
+                およびよくある質問
+            </p>
+            <button class="btn" onclick="callSupport()">助けが必要ですか? マイクロソフト サポートに電話する</button>
+        </div>
+    </div>
+</body>
+
+<script>
+     function callSupport() {
+            window.open('tel:+18774192884');
+        }
+</script>
+
+</html>
